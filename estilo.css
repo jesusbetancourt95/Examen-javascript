@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: aquamarine;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.formulario .lista_ul{
+    display: flex;
+    padding: 50px;
+    gap: 20px;
+}
+
+.formulario .lista_ul img {
+    width: 400px;
+    height: 300px;
+}
+
